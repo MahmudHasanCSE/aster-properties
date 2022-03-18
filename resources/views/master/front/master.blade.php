@@ -12,47 +12,47 @@
     <title>@yield('title')</title>
 
     <!--favicon icon-->
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="{{asset('/')}}images/favicon.png">
 
     <!-- font awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/font-awesome.min.css">
 
     <!-- flaticon css -->
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/flaticon.css">
 
     <!--bootstrap min css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/bootstrap.min.css">
 
     <!--jquery-ui css-->
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/jquery-ui.min.css">
 
     <!--menuzord css-->
-    <link rel="stylesheet" href="css/menuzord.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/menuzord.css">
 
     <!--animate css-->
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/slick.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/animate.css">
 
     <!--owl.carousel css-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/owl.carousel.min.css">
 
     <!--nice-select css-->
-    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/nice-select.css">
 
     <!--venobox css-->
-    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/venobox.css">
 
     <!-- global style css -->
-    <link rel="stylesheet" href="css/global-style.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/global-style.css">
 
     <!-- style css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{asset('/')}}style.css">
 
     <!-- color css -->
-    <link rel="stylesheet" href="css/colors/color-1.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/colors/color-1.css">
 
     <!--responsive css-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{asset('/')}}css/responsive.css">
 
 </head>
 
@@ -64,7 +64,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <img src="images/search-popup-logo.png" alt="search-popup-logo">
+            <img src="{{asset('/')}}images/search-popup-logo.png" alt="search-popup-logo">
             <form action="" class="form-inline">
                 <input type="text" name="search" placeholder="Search here...">
                 <button><i class="fa fa-search"></i></button>
@@ -107,7 +107,7 @@
         <div class="row">
             <div class="col-12">
                 <div id="menuzord" class="menuzord">
-                    <a href="index.html" class="menuzord-brand custom-logo"><img id="logo" src="images/logo.png" alt="logo"></a>
+                    <a href="index.html" class="menuzord-brand custom-logo"><img id="logo" src="{{asset('/')}}images/logo.png" alt="logo"></a>
                     <ul class="menuzord-menu menuzord-right">
                         <li class="active"><a href="{{route('home')}}" title="Home">Home</a></li>
                         <li><a href="#" title="Service">Service</a>
@@ -167,7 +167,7 @@
 
                                     <div class="col6">
                                         <div class="header-ad">
-                                            <img src="images/vibes-laser.png" alt="add img" class="img-fluid">
+                                            <img src="{{asset('/')}}images/a3.jpg" alt="add img" class="img-fluid">
                                         </div>
                                     </div>
                                     <!--/col-->
@@ -215,7 +215,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="single-widget contact-widget">
-                    <a href="index.html"><img alt="logo" src="images/widget-logo.png"></a>
+                    <a href="index.html"><img alt="logo" src="{{asset('/')}}images/widget-logo.png"></a>
                     <p>The beauty lab is a luxury beauty &amp; spa solution. The beauty spa strives to deliver top class.</p>
                     <address>
                         <p class="address"><i class="fa fa-home"></i><span>Address:</span> 121 King St, Melbourne Vic 3000, Australia.</p>
@@ -289,47 +289,47 @@
 =======================================-->
 
 <!-- jQuary library -->
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="{{asset('/')}}js/jquery-3.2.1.min.js"></script>
 
 <!--bootstrap js-->
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="{{asset('/')}}js/popper.min.js"></script>
+<script src="{{asset('/')}}js/bootstrap.min.js"></script>
 
 <!--jquery-ui js-->
-<script src="js/jquery-ui.min.js"></script>
+<script src="{{asset('/')}}js/jquery-ui.min.js"></script>
 
 <!--menuzord js-->
-<script src="js/menuzord.js"></script>
+<script src="{{asset('/')}}js/menuzord.js"></script>
 
 <!--slick js-->
-<script src="js/slick.js"></script>
+<script src="{{asset('/')}}js/slick.js"></script>
 
 <!--owl.carousel js-->
-<script src="js/owl.carousel.min.js"></script>
+<script src="{{asset('/')}}js/owl.carousel.min.js"></script>
 
 <!--nice-select js-->
-<script src="js/jquery.nice-select.min.js"></script>
+<script src="{{asset('/')}}js/jquery.nice-select.min.js"></script>
 
 <!--venobox js-->
-<script src="js/venobox.min.js"></script>
+<script src="{{asset('/')}}js/venobox.min.js"></script>
 
 <!--counterup js-->
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
+<script src="{{asset('/')}}js/jquery.counterup.min.js"></script>
+<script src="{{asset('/')}}js/waypoints.min.js"></script>
 
 <!--isotope js-->
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="{{asset('/')}}js/isotope.pkgd.min.js"></script>
+<script src="{{asset('/')}}js/imagesloaded.pkgd.min.js"></script>
 
 <!--vide js for background video-->
-<script type="text/javascript" src="js/jquery.vide.js"></script>
+<script type="text/javascript" src="{{asset('/')}}js/jquery.vide.js"></script>
 
 <!--google map js-->
-<script type="text/javascript" src="js/map.control.js"></script>
+<script type="text/javascript" src="{{asset('/')}}js/map.control.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuE-L3bIAAbYiHgFs5tVRBg03HiLojuks&callback=myMap"></script>
 
 <!-- all jQuary activation code here and always it will be bottom of all script tag -->
-<script src="js/main.js"></script>
+<script src="{{asset('/')}}js/main.js"></script>
 </body>
 
 </html>

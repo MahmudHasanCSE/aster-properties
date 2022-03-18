@@ -100,7 +100,7 @@
                 <div class="consultant-wrapper">
                     <h5 class="title color-d5 mb-30 pos-relative fw-500">Our Experts Consultant</h5>
                     <div class="single-consultant">
-                        <img src="images/consultant1.jpg" alt="consultant">
+                        <img src="{{asset('/')}}images/a1.jpg" alt="consultant">
                         <div class="content">
                             <a href="#" class="fw-500 roboto color-72">Nicky Cruse</a>
                             <p>Email: nicky@beautylab.com</p>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="single-consultant">
-                        <img src="images/consultant2.jpg" alt="consultant">
+                        <img src="{{asset('/')}}images/a2.jpg" alt="consultant">
                         <div class="content">
                             <a href="#" class="fw-500 roboto color-72">Micky Bruse</a>
                             <p>Email: nicky@beautylab.com</p>

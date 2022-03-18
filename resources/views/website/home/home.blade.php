@@ -324,7 +324,7 @@
                 <!--gallery-1-->
                 <div class="col-lg-4 col-md-6  mix interiors">
                     <div class="single-gallery">
-                        <img src="images/beauty-galleryImg1.jpg" alt="gallery image" class="img-fluid" />
+                        <img src="{{asset('/')}}images/a1.jpg" alt="gallery image" class="img-fluid" />
                         <div class="single-gallery-overlay text-center">
                             <h6><a href="#" class="color-ff fw-500">Beauty Treatment</a></h6>
                             <div class="divider mt-15 mb-10"></div>
@@ -336,7 +336,7 @@
                 <!--gallery-2-->
                 <div class="col-lg-4 col-md-6  mix treatment">
                     <div class="single-gallery">
-                        <img src="images/beauty-galleryImg2.jpg" alt="gallery image" class="img-fluid" />
+                        <img src="{{asset('/')}}images/a2.jpg" alt="gallery image" class="img-fluid" />
                         <div class="single-gallery-overlay text-center">
                             <h6><a href="#" class="color-ff fw-500">Beauty Treatment</a></h6>
                             <div class="divider mt-15 mb-10"></div>
@@ -348,7 +348,7 @@
                 <!--gallery-3-->
                 <div class="col-lg-4 col-md-6  mix interiors">
                     <div class="single-gallery">
-                        <img src="images/beauty-galleryImg3.jpg" alt="gallery image" class="img-fluid" />
+                        <img src="{{asset('/')}}images/a3.jpg" alt="gallery image" class="img-fluid" />
                         <div class="single-gallery-overlay text-center">
                             <h6><a href="#" class="color-ff fw-500">Beauty Treatment</a></h6>
                             <div class="divider mt-15 mb-10"></div>
@@ -360,7 +360,7 @@
                 <!--gallery-4-->
                 <div class="col-lg-4 col-md-6  mix treatment">
                     <div class="single-gallery">
-                        <img src="images/beauty-galleryImg4.jpg" alt="gallery image" class="img-fluid" />
+                        <img src="{{asset('/')}}images/a3.jpg" alt="gallery image" class="img-fluid" />
                         <div class="single-gallery-overlay text-center">
                             <h6><a href="#" class="color-ff fw-500">Beauty Treatment</a></h6>
                             <div class="divider mt-15 mb-10"></div>
@@ -372,7 +372,7 @@
                 <!--gallery-5-->
                 <div class="col-lg-4 col-md-6  mix interiors">
                     <div class="single-gallery">
-                        <img src="images/beauty-galleryImg5.jpg" alt="gallery image" class="img-fluid" />
+                        <img src="{{asset('/')}}images/a2.jpg" alt="gallery image" class="img-fluid" />
                         <div class="single-gallery-overlay text-center">
                             <h6><a href="#" class="color-ff fw-500">Beauty Treatment</a></h6>
                             <div class="divider mt-15 mb-10"></div>
@@ -384,7 +384,7 @@
                 <!--gallery-6-->
                 <div class="col-lg-4 col-md-6  mix treatment">
                     <div class="single-gallery">
-                        <img src="images/beauty-galleryImg6.jpg" alt="gallery image" class="img-fluid" />
+                        <img src="{{asset('/')}}images/a1.jpg" alt="gallery image" class="img-fluid" />
                         <div class="single-gallery-overlay text-center">
                             <h6><a href="#" class="color-ff fw-500">Beauty Treatment</a></h6>
                             <div class="divider mt-15 mb-10"></div>
@@ -398,7 +398,7 @@
         </div>
     </section>
     <!-- =======================================
-            ==End beauty lab gellary section==
+            ==End beauty lab gallery section==
     =======================================-->
 
 
@@ -423,7 +423,7 @@
 
                         <!--product-1-->
                         <div class="single-carousel">
-                            <img src="images/product2.jpg" alt="product" class="img-fluid">
+                            <img src="{{asset('/')}}images/product2.jpg" alt="product" class="img-fluid">
                             <div class="product-hover text-center">
                                 <h6 class="color-ff mb-10">$180.95</h6>
                                 <div class="divider"></div>
@@ -434,7 +434,7 @@
 
                         <!--product-2-->
                         <div class="single-carousel">
-                            <img src="images/product6.jpg" alt="product" class="img-fluid">
+                            <img src="{{asset('/')}}images/product6.jpg" alt="product" class="img-fluid">
                             <div class="product-hover text-center">
                                 <h6 class="color-ff mb-10">$100.55</h6>
                                 <div class="divider"></div>
@@ -445,7 +445,7 @@
 
                         <!--product-3-->
                         <div class="single-carousel">
-                            <img src="images/product7.jpg" alt="product" class="img-fluid">
+                            <img src="{{asset('/')}}images/product7.jpg" alt="product" class="img-fluid">
                             <div class="product-hover text-center">
                                 <h6 class="color-ff mb-10">$120.95</h6>
                                 <div class="divider"></div>
@@ -456,7 +456,7 @@
 
                         <!--product-4-->
                         <div class="single-carousel">
-                            <img src="images/product1.jpg" alt="product" class="img-fluid">
+                            <img src="{{asset('/')}}images/product1.jpg" alt="product" class="img-fluid">
                             <div class="product-hover text-center">
                                 <h6 class="color-ff mb-10">$180.95</h6>
                                 <div class="divider"></div>
@@ -467,7 +467,7 @@
 
                         <!--product-5-->
                         <div class="single-carousel">
-                            <img src="images/product3.jpg" alt="product" class="img-fluid">
+                            <img src="{{asset('/')}}images/product3.jpg" alt="product" class="img-fluid">
                             <div class="product-hover text-center">
                                 <h6 class="color-ff mb-10">$100.95</h6>
                                 <div class="divider"></div>
@@ -478,7 +478,7 @@
 
                         <!--product-6-->
                         <div class="single-carousel">
-                            <img src="images/product4.jpg" alt="product" class="img-fluid">
+                            <img src="{{asset('/')}}images/product4.jpg" alt="product" class="img-fluid">
                             <div class="product-hover text-center">
                                 <h6 class="color-ff mb-10">$120.95</h6>
                                 <div class="divider"></div>
@@ -489,7 +489,7 @@
 
                         <!--product-7-->
                         <div class="single-carousel">
-                            <img src="images/product5.jpg" alt="product" class="img-fluid">
+                            <img src="{{asset('/')}}images/product5.jpg" alt="product" class="img-fluid">
                             <div class="product-hover text-center">
                                 <h6 class="color-ff mb-10">$180.95</h6>
                                 <div class="divider"></div>
@@ -683,21 +683,21 @@
                     <div class="testimoial-wrapper owl-carousel">
                         <!--testimonial-1-->
                         <div class="single-testimonial text-center">
-                            <a href="#"><img src="images/author3.jpg" alt="author"></a>
+                            <a href="#"><img src="{{asset('/')}}images/a3.jpg" alt="author"></a>
                             <p class="testimoinal-txt color-ff pt-25">I just wanted to thank you for providing a great celebration party for me. Your staff did an excellent job and the Makeup was superb. Everyone was impressed.Thanks again!</p>
                             <p class="author color-ff">Thomas Jefferson<span>CEO of TF</span></p>
                         </div>
 
                         <!--testimonial-2-->
                         <div class="single-testimonial text-center">
-                            <a href="#"><img src="images/author1.jpg" alt="author"></a>
+                            <a href="#"><img src="{{asset('/')}}images/a1.jpg" alt="author"></a>
                             <p class="testimoinal-txt color-ff pt-25">I just wanted to thank you for providing a great celebration party for me. Your staff did an excellent job and the Makeup was superb. Everyone was impressed.Thanks again!</p>
                             <p class="author color-ff">Thomas Jefferson<span>CEO of TF</span></p>
                         </div>
 
                         <!--testimonial-3-->
                         <div class="single-testimonial text-center">
-                            <a href="#"><img src="images/author2.jpg" alt="author"></a>
+                            <a href="#"><img src="{{asset('/')}}images/a2.jpg" alt="author"></a>
                             <p class="testimoinal-txt color-ff pt-25">I just wanted to thank you for providing a great celebration party for me. Your staff did an excellent job and the Makeup was superb. Everyone was impressed.Thanks again!</p>
                             <p class="author color-ff">Thomas Jefferson<span>CEO of TF</span></p>
                         </div>
@@ -735,7 +735,7 @@
                     <div class="single-blog">
                         <div class="blog-img pos-relative">
                             <div class="img-area">
-                                <a href="blog-details.html"><img src="images/blog1.jpg" alt="blog img" class="img-fluid"></a>
+                                <a href="blog-details.html"><img src="{{asset('/')}}images/a1.jpg" alt="blog img" class="img-fluid"></a>
                             </div>
                             <ul class="brand">
                                 <li><i class="fa fa-heart"></i>18</li>
@@ -757,7 +757,7 @@
                     <div class="single-blog">
                         <div class="blog-img pos-relative">
                             <div class="img-area">
-                                <a href="blog-details.html"><img src="images/blog2.jpg" alt="blog img" class="img-fluid"></a>
+                                <a href="blog-details.html"><img src="{{asset('/')}}images/a2.jpg" alt="blog img" class="img-fluid"></a>
                             </div>
                             <ul class="brand">
                                 <li><i class="fa fa-heart"></i>18</li>
@@ -779,7 +779,7 @@
                     <div class="single-blog">
                         <div class="blog-img pos-relative">
                             <div class="img-area">
-                                <a href="blog-details.html"><img src="images/blog3.jpg" alt="blog img" class="img-fluid"></a>
+                                <a href="blog-details.html"><img src="{{asset('/')}}images/a3.jpg" alt="blog img" class="img-fluid"></a>
                             </div>
                             <ul class="brand">
                                 <li><i class="fa fa-heart"></i>18</li>
